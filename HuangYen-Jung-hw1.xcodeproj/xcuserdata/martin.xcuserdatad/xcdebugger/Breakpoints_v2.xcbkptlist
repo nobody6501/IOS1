@@ -17,6 +17,38 @@
             endingLineNumber = "11"
             landmarkName = "Automobile"
             landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HuangYen_Jung_hw1.Automobile.__deallocating_deinit"
+                  moduleName = "HuangYen-Jung-hw1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/martin/Desktop/IOS%20Mobile%20HW/IOS1/HuangYen-Jung-hw1/Automobile.swift"
+                  timestampString = "476031427.811008"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HuangYen_Jung_hw1.Automobile.deinit"
+                  moduleName = "HuangYen-Jung-hw1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/martin/Desktop/IOS%20Mobile%20HW/IOS1/HuangYen-Jung-hw1/Automobile.swift"
+                  timestampString = "476031427.813415"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

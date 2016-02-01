@@ -23,8 +23,8 @@ class Automobile {
         
     }
     
-    class func create(make:String, model:String, numberOfDoors:Int, speed:Int) {
-        
+    class func create(make:String, model:String, numberOfDoors:Int, speed:Int)->Automobile {
+        return Automobile(make: make, model: model, numberOfDoors: numberOfDoors, speed: speed)
     }
     
     func getMake()->String {
@@ -50,6 +50,22 @@ class Automobile {
     }
     func setSpeed(speed:Int) {
         self.speed = speed
+    }
+    
+    func increaseSpeed(speedChange:Int) {
+        speed = speed + speedChange
+        if(speed > 150) {
+            speed = 150
+        }    }
+    func decreaseSpeed(speedChange:Int) {
+        speed = speed - speedChange
+        if(speed < 0) {
+            speed = 0
+        }
+    }
+    
+    func description() ->String {
+        return "Make: \(make), Model: \(model), NumDoors: \(numberOfDoors), Speed: \(speed)"
     }
     
     
