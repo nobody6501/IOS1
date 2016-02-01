@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B36302D1C5EF10300DDA661 /* Automobile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B36302C1C5EF10300DDA661 /* Automobile.swift */; };
 		5BCE00FA1C5DB25A004C2B3A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCE00F91C5DB25A004C2B3A /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5B36302C1C5EF10300DDA661 /* Automobile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Automobile.swift; sourceTree = "<group>"; };
 		5BCE00F61C5DB25A004C2B3A /* HuangYen-Jung-hw1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "HuangYen-Jung-hw1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BCE00F91C5DB25A004C2B3A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				5BCE00F91C5DB25A004C2B3A /* main.swift */,
+				5B36302C1C5EF10300DDA661 /* Automobile.swift */,
 			);
 			path = "HuangYen-Jung-hw1";
 			sourceTree = "<group>";
@@ -119,6 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B36302D1C5EF10300DDA661 /* Automobile.swift in Sources */,
 				5BCE00FA1C5DB25A004C2B3A /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +243,7 @@
 				5BCE00FF1C5DB25A004C2B3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
