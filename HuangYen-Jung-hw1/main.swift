@@ -9,12 +9,12 @@
 import Foundation
 
 func main() {
-     print("WTF")
+    
     var car1 = Automobile.create("Maserati", model: "GranTurismo", numberOfDoors: 2, speed: 3)
     var car2 = Automobile.create("Honda", model: "Accord", numberOfDoors: 4, speed: 5)
     var car3 = Automobile.create("Tesla", model: "S 90", numberOfDoors: 2, speed: 20)
     
-    for i in 1...10 {
+    for var i = 0; i < 10; ++i {
         
         car1.increaseSpeed(Int(randomValueBetween(0, max: 16)))
         car2.increaseSpeed(Int(randomValueBetween(0, max: 16)))
@@ -22,8 +22,7 @@ func main() {
         
     }
     
-    print("WTF")
-    car1.description()
+    print(car1.description())
     print(car2.description())
     print(car3.description())
     
@@ -45,3 +44,5 @@ func randomValueBetween(min:UInt32, max:UInt32)->UInt32 {
     var randomValue:UInt32 = min + arc4random_uniform(UInt32(max-min+1))
     return randomValue
 }
+
+main()
